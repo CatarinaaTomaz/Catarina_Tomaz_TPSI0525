@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Colibri</title>
+    <title>Coelhos</title>
 </head>
 
 
@@ -21,7 +21,7 @@
     }
 
     header {
-      background-color: #0077cc;
+      background-color: #07863c;
       color: white;
       padding: 20px 0;
       text-align: center;
@@ -40,6 +40,14 @@
       padding: 0 20px;
     }
 
+    .container_imagem {
+      width: 100%;       /* Ocupa 100% do contêiner pai */
+      max-width: 400px;  /* Tamanho máximo */
+      height: auto;      /* Mantém proporção da imagem */
+      border-radius: 10px; /* Opcional: bordas arredondadas */
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    }
+
     section {
       margin-bottom: 40px;
     }
@@ -56,14 +64,14 @@
 
     button {
       padding: 10px 15px;
-      background-color: #0077cc;
+      background-color: #07863c;
       color: white;
       border: none;
       cursor: pointer;
     }
 
     button:hover {
-      background-color: #005fa3;
+      background-color: #045827;
     }
   </style>
 
@@ -71,24 +79,24 @@
 <body>
 
     <header>
-        <h1>Meu Site Simples</h1>
+        <h1>WebCoelho</h1>
         <nav>
-        <a href="#inicio">Início</a>
-        <a href="#sobre">Sobre</a>
-        <a href="#contato">Contato</a>
+        <a href="index.hrml">Início</a>
+        <a href="racas.html">Raças</a>
+        <a href="alimentacao.html">Alimentação</a>
         </nav>
     </header>
 
     <div class="container">
         <section id="inicio">
         <h2>Bem-vindo!</h2>
-        <p>Este é um exemplo de site simples usando apenas HTML, CSS e JavaScript.</p>
+        <p>Este é um site sobre informações de coelhos que utiliza HTML, CSS e JavaScript.</p>
         <button onclick="mostrarAlerta()">Clique aqui</button>
         </section>
 
         <section id="sobre">
         <h2>Sobre Nós</h2>
-        <p>Somos desenvolvedores apaixonados por simplicidade e código limpo.</p>
+        <p>Descubra tudo sobre esses adoráveis companheiros de orelhas compridas! Aqui você encontrará informações sobre cuidados, alimentação, raças, curiosidades e muito mais. Seja você um tutor apaixonado ou apenas um admirador, este é o lugar perfeito para aprender e se encantar com os coelhos.</p>
         </section>
 
         <section id="contato">
@@ -96,15 +104,19 @@
         <p>Entre em contato pelo e-mail: exemplo@site.com</p>
         </section>
     </div>
+
+    <div class="container_imagem">
+      <img src="https://s2.glbimg.com/IIec9bdPmuMygW9CmXuotAp82ME=/e.glbimg.com/og/ed/f/original/2022/04/14/janan-lagerwall-p2ubtx6uoig-unsplash.jpg" alt="Coelho">
+    </div>
 </body>
 
   <footer>
-    <p>&copy; 2025 Meu Site Simples. Todos os direitos reservados.</p>
+    <p>&copy; 2025 WebCoelho Todos os direitos reservados.</p>
   </footer>
 
   <script>
     function mostrarAlerta() {
-      alert('Você clicou no botão!');
+      alert('Clicou no botão!');
     }
   </script>
 

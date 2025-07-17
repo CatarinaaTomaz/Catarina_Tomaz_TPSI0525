@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Alimentação</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 20px;
+    }
+
+    header {
+      background-color: #07863c;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .bloco {
+      display: flex;
+      align-items: center;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      margin-bottom: 30px;
+      overflow: hidden;
+    }
+
+    .bloco img {
+      width: 250px;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .bloco-texto {
+      padding: 20px;
+    }
+
+    .bloco-texto h2 {
+      margin: 0 0 10px;
+      color: #0077cc;
+    }
+
+    .bloco-texto p {
+      margin: 0;
+      color: #555;
+    }
+
+    @media (max-width: 700px) {
+      .bloco {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .bloco img {
+        width: 100%;
+        height: auto;
+      }
+
+      .bloco-texto {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+        <h1>A Alimentação</h1>
+        <nav>
+        <a href="index.html">Início</a>
+        <a href="racas.html">Raças</a>
+        <a href="alimentacao.html">Alimentação</a>
+        </nav>
+    </header>
+
+  <div class="bloco">
+    <img src="https://www.worten.pt/i/89678617d45a96562452a7a52f122528ac4e970a" alt="Agua">
+    <div class="bloco-texto">
+      <h2>Água</h2>
+      <p>Os coelhos devem beber muita água de modo a fazer uma boa digestão.</p>
+    </div>
+  </div>
+
+  <div class="bloco">
+    <img src="https://lovepets.es/7184-large_default/comida-para-coelho-senior-5-anos-com-mirtilos-e-tomillo-burgess.jpg" alt="Racao">
+    <div class="bloco-texto">
+      <h2>Ração</h2>
+      <p>A ração faz parte de 20% da alimentação de um coelho.</p>
+    </div>
+  </div>
+
+  <div class="bloco">
+    <img src="https://goldpet.pt/72105-large_default/feno-nature-timothy-com-pimentao-e-pastinaga-para-roedores-versele-laga.jpg" alt="Feno">
+    <div class="bloco-texto">
+      <h2>Feno</h2>
+      <p>O Feno faz parte de 80% da alimentação de um coelho.</p>
+    </div>
+  </div>
+
+</body>
+</html>
